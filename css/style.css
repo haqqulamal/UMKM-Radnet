@@ -111,7 +111,7 @@ h1 {
   padding-top: 25px;
   padding-bottom: 25px;
   border-radius: 30px;
-  background: rgba(231, 229, 229, 0.5);
+  background: #2C8A82;
   backdrop-filter: blur(1rem);
   box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
 }
@@ -247,7 +247,7 @@ h1 {
 
 .card p {
   font-family: "Poppins", sans-serif;
-  color: #303030;
+  color: darkorange;
   font-weight: 700;
   font-size: 24px;
   letter-spacing: 2px;
@@ -266,7 +266,8 @@ h1 {
 }
 
 .card img {
-  width: 180px;
+  width: 100%;
+  border-radius: 8%;
 }
 
 .content ul {
@@ -547,7 +548,7 @@ footer .row.icon-awesome i {
   }
 
   .jumbotron {
-    background: linear-gradient(111.95deg, #4e9f3d 0.36%, #f4a442 91.13%);
+    color: white; 
     height: 1200px;
   }
 
